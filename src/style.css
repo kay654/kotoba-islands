@@ -779,10 +779,12 @@ button svg {
     opacity 0.13s;
   user-select: none;
 }
-.answer:not(:disabled):hover {
-  background: #eaf1e4;
-  border-color: #77a08b;
-  transform: translateY(-3px);
+@media (hover: hover) and (pointer: fine) {
+  .answer:not(:disabled):hover {
+    background: #eaf1e4;
+    border-color: #77a08b;
+    transform: translateY(-3px);
+  }
 }
 .answer:not(:disabled):active {
   transform: translateY(4px);
