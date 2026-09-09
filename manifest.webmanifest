@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "ことばの島 — 漢字をつなぐ、小さな冒険",
+  "short_name": "ことばの島",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f6ee",
+  "theme_color": "#f7f6ee",
+  "description": "1〜6年生の漢字を集める、小さな冒険ゲーム。",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
